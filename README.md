@@ -36,9 +36,3 @@ npm run lint
 npm run test:run
 npm run test:e2e
 ```
-
-## Hackathon Notes
-
-- Includes a "Quick reset mode" for high-pressure moments.
-- Risk level is derived from stress, mood, and sleep trends.
-- Recommendations adapt to repeated triggers (e.g., comparison, backlog, low sleep).
