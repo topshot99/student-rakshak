@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+body {
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  background: radial-gradient(circle at top left, #d6f5ff 0%, #effcff 35%, #ffffff 100%);
+  color: #1c2f52;
+}
+
+.card-soft {
+  border-radius: 24px;
+  background: linear-gradient(170deg, rgba(255, 255, 255, 0.9), rgba(231, 249, 255, 0.7));
+  border: 1px solid rgba(117, 180, 255, 0.3);
+  box-shadow: 0 18px 35px rgba(84, 151, 241, 0.12);
+  padding: 1rem;
+}
+
+.soft-panel {
+  border-radius: 18px;
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.95), rgba(247, 253, 255, 0.7));
+  border: 1px solid rgba(173, 206, 255, 0.5);
+  padding: 0.75rem;
+}
+
+.field-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  color: #334155;
+  font-size: 0.9rem;
+}
+
+.field-block input,
+.field-block textarea {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #b6d7f4;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 0.5rem 0.7rem;
+}
+
+.btn-primary {
+  border-radius: 999px;
+  background: linear-gradient(145deg, #2dc6ff, #5f7aff);
+  color: white;
+  font-weight: 700;
+  padding: 0.65rem 1rem;
+  box-shadow: 0 10px 20px rgba(44, 117, 255, 0.3);
+}
+
+.btn-primary:hover {
+  filter: brightness(1.05);
+}
