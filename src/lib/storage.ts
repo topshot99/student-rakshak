@@ -5,6 +5,7 @@ const STORAGE_KEY = "mental-wellness-tracker-v1";
 export const emptyState: WellnessState = {
   profile: null,
   checkIns: [],
+  language: "en",
 };
 
 export function loadState(): WellnessState {
@@ -22,6 +23,7 @@ export function loadState(): WellnessState {
     return {
       profile: parsed.profile ?? null,
       checkIns: parsed.checkIns ?? [],
+      language: parsed.language ?? "en",
     };
   } catch (error) {
     console.error("Failed to parse local wellness state:", error);

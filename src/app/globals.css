@@ -50,3 +50,48 @@ body {
 .btn-primary:hover {
   filter: brightness(1.05);
 }
+
+.preset-chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  border-radius: 999px;
+  border: 1px solid #b6d7f4;
+  background: rgba(255, 255, 255, 0.85);
+  color: #1e3a8a;
+  padding: 0.45rem 0.55rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.preset-chip:hover {
+  transform: translateY(-1px);
+  background: linear-gradient(140deg, #ecfeff, #dbeafe);
+  box-shadow: 0 8px 16px rgba(59, 130, 246, 0.12);
+}
+
+.lang-toggle {
+  display: inline-flex;
+  gap: 0.25rem;
+  padding: 0.2rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid #b6d7f4;
+}
+
+.lang-pill {
+  border-radius: 999px;
+  padding: 0.25rem 0.7rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #1e3a8a;
+  transition: all 0.15s ease;
+}
+
+.lang-pill-active {
+  background: linear-gradient(145deg, #2dc6ff, #5f7aff);
+  color: white;
+  box-shadow: 0 6px 14px rgba(44, 117, 255, 0.25);
+}

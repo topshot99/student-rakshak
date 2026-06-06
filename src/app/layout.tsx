@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MindBloom - Mental Wellness Tracker",
+  title: "MannSathi - Mental Wellness Tracker",
   description:
-    "Pixar-style mental wellness tracker for students preparing for board and entrance exams.",
+    "Bilingual (English + हिंदी) mental wellness tracker for students preparing for board and entrance exams.",
 };
 
 export default function RootLayout({
